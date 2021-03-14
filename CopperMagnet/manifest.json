@@ -1,0 +1,10 @@
+{
+	"name": "AdbancedCopper",
+	"version_number": "0.0.1",
+	"website_url": "",
+	"description": "You can generate more ingots by adding water.",
+	"dependencies": [
+		"xiaoye97-BepInEx-5.4.5",
+		"xiaoye97-LDBTool-1.8.0"
+	]
+}

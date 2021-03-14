@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdbancedCopper", "CopperMagnet\AdbancedCopper.csproj", "{D4D0D3FE-4EA5-42F9-83D8-E70BAF2E4ACF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4D0D3FE-4EA5-42F9-83D8-E70BAF2E4ACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4D0D3FE-4EA5-42F9-83D8-E70BAF2E4ACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4D0D3FE-4EA5-42F9-83D8-E70BAF2E4ACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4D0D3FE-4EA5-42F9-83D8-E70BAF2E4ACF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6AB3AD4B-5C86-455C-B0CA-1E50F5B427E2}
+	EndGlobalSection
+EndGlobal
