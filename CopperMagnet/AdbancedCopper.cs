@@ -29,8 +29,8 @@ namespace AdbancedCopper
         }
        void Start()
         {
-            //var ab = AssetBundle.LoadFromStream(Assembly.GetExecutingAssembly().GetManifestResourceStream("AdbancedCopper.copper-adbanced.png"));
-            //this.icon = ab.LoadAsset<Sprite>("copper-adbanced.png");
+            var ab = AssetBundle.LoadFromStream(Assembly.GetExecutingAssembly().GetManifestResourceStream("AdbancedCopper.adbancedcopper"));
+            this.icon = ab.LoadAsset<Sprite>("copper-adbanced");
             LDBTool.PreAddDataAction += this.AddAdbancedCopper;
             LDBTool.PreAddDataAction += this.AddLang;
         }
@@ -68,21 +68,14 @@ namespace AdbancedCopper
             // 作成時間
             copperIngotNew.TimeSpend = (60 * 12);
             // レシピのインデックス
-            Logger.LogInfo($"Setting: copperIngotoNew.GridIndexOld : { copperIngotNew.GridIndex }");
             copperIngotNew.GridIndex = 1112;
-            Logger.LogInfo($"Setting: copperIngotoNew.GridIndexNew : { copperIngotNew.GridIndex }");
             copperIngotNew.SID = "1112";
             copperIngotNew.sid = "1112".Translate();
-            copperIngotNew.IconPath = "Icons/ItemRecipe/nanotube-lv2";
-            RecipeProto recipeProto3 = LDB.recipes.Select(23);
-            //Traverse.Create(copperIngotNew).Field("_iconSprite").SetValue(recipeProto3.iconSprite);
+            Traverse.Create(copperIngotNew).Field("_iconSprite").SetValue(this.icon);
+
             var copperIngotItem = LDB.items.Select(1104);
             copperIngotItem.recipes.Add(copperIngotNew);
             LDBTool.PostAddProto(ProtoType.Recipe, copperIngotNew);
-            Logger.LogInfo($"Setting: copperIngotoNew.GridIndex : { copperIngotNew.GridIndex }");
-            Logger.LogInfo($"Setting: copperIngotoNew.SID : { copperIngotNew.SID }");
-            Logger.LogInfo($"Setting: copperIngotoNew.sid : { copperIngotNew.sid }");
-            Logger.LogInfo($"Setting: copperIngotoNew.IconPath : { copperIngotNew.IconPath }");
             Logger.LogInfo("AddAdbancedCopperEnd");
         }
 

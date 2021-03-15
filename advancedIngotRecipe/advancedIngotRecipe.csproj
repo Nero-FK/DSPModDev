@@ -4,15 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D4D0D3FE-4EA5-42F9-83D8-E70BAF2E4ACF}</ProjectGuid>
+    <ProjectGuid>{4ADD9304-2D7C-4F05-8D62-663B037F931A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AdbancedCopper</RootNamespace>
-    <AssemblyName>AdbancedCopper</AssemblyName>
+    <RootNamespace>advancedIngotRecipe</RootNamespace>
+    <AssemblyName>advancedIngotRecipe</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -49,12 +48,9 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
     <Reference Include="UnityEngine">
       <HintPath>..\..\dspModDLL\UnityEngine.dll</HintPath>
@@ -67,20 +63,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdbancedCopper.cs" />
+    <Compile Include="advancedIngotRecipe.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="adbancedcopper" />
+    <EmbeddedResource Include="advancedcopper" />
+    <EmbeddedResource Include="advancediron" />
+    <EmbeddedResource Include="advancedsilicon" />
+    <EmbeddedResource Include="advancedtitanium" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="manifest.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="copper-adbanced.png">
-      <CustomToolNamespace>copper-adbanced</CustomToolNamespace>
-    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
