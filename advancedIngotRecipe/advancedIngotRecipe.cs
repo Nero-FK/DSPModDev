@@ -19,6 +19,7 @@ namespace advancedIngotRecipe
         private Sprite ironIcon;
         private Sprite siliconIcon;
         private Sprite titaniumIcon;
+        //テスト
 
         public const string ModGuid = "jp.co.nero.dsp.advancedIngotRecipe";
         public const string ModName = "advancedIngotRecipe";
