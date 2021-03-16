@@ -1,0 +1,14 @@
+C:\Users\fumiz\source\repos\DSPModDev\CopperMagnet\bin\Debug\0Harmony.dll
+C:\Users\fumiz\source\repos\DSPModDev\CopperMagnet\bin\Debug\Assembly-CSharp.dll
+C:\Users\fumiz\source\repos\DSPModDev\CopperMagnet\bin\Debug\BepInEx.dll
+C:\Users\fumiz\source\repos\DSPModDev\CopperMagnet\bin\Debug\BepInEx.Harmony.dll
+C:\Users\fumiz\source\repos\DSPModDev\CopperMagnet\bin\Debug\LDBTool.dll
+C:\Users\fumiz\source\repos\DSPModDev\CopperMagnet\bin\Debug\UnityEngine.CoreModule.dll
+C:\Users\fumiz\source\repos\DSPModDev\CopperMagnet\bin\Debug\UnityEngine.dll
+C:\Users\fumiz\source\repos\DSPModDev\CopperMagnet\obj\Debug\HighEfficiencyCopper.csproj.CoreCompileInputs.cache
+C:\Users\fumiz\source\repos\DSPModDev\CopperMagnet\obj\Debug\HighEfficiencyCopper.csproj.CopyComplete
+C:\Users\fumiz\source\repos\DSPModDev\CopperMagnet\bin\Debug\HighEfficiencyCopper.dll
+C:\Users\fumiz\source\repos\DSPModDev\CopperMagnet\bin\Debug\HighEfficiencyCopper.pdb
+C:\Users\fumiz\source\repos\DSPModDev\CopperMagnet\obj\Debug\HighEfficiencyCopper.dll
+C:\Users\fumiz\source\repos\DSPModDev\CopperMagnet\obj\Debug\HighEfficiencyCopper.pdb
+C:\Users\fumiz\source\repos\DSPModDev\CopperMagnet\obj\Debug\HighEfficiencyCopper.csprojAssemblyReference.cache

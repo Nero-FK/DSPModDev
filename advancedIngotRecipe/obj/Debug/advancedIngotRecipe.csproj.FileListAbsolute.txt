@@ -1,0 +1,15 @@
+C:\Users\fumiz\source\repos\DSPModDev\advancedIngotRecipe\bin\Debug\advancedIngotRecipe.dll
+C:\Users\fumiz\source\repos\DSPModDev\advancedIngotRecipe\bin\Debug\advancedIngotRecipe.pdb
+C:\Users\fumiz\source\repos\DSPModDev\advancedIngotRecipe\bin\Debug\0Harmony.dll
+C:\Users\fumiz\source\repos\DSPModDev\advancedIngotRecipe\bin\Debug\Assembly-CSharp.dll
+C:\Users\fumiz\source\repos\DSPModDev\advancedIngotRecipe\bin\Debug\BepInEx.dll
+C:\Users\fumiz\source\repos\DSPModDev\advancedIngotRecipe\bin\Debug\BepInEx.Harmony.dll
+C:\Users\fumiz\source\repos\DSPModDev\advancedIngotRecipe\bin\Debug\LDBTool.dll
+C:\Users\fumiz\source\repos\DSPModDev\advancedIngotRecipe\bin\Debug\UnityEngine.AssetBundleModule.dll
+C:\Users\fumiz\source\repos\DSPModDev\advancedIngotRecipe\bin\Debug\UnityEngine.CoreModule.dll
+C:\Users\fumiz\source\repos\DSPModDev\advancedIngotRecipe\bin\Debug\UnityEngine.dll
+C:\Users\fumiz\source\repos\DSPModDev\advancedIngotRecipe\obj\Debug\advancedIngotRecipe.csproj.CoreCompileInputs.cache
+C:\Users\fumiz\source\repos\DSPModDev\advancedIngotRecipe\obj\Debug\advancedIngotRecipe.csproj.CopyComplete
+C:\Users\fumiz\source\repos\DSPModDev\advancedIngotRecipe\obj\Debug\advancedIngotRecipe.dll
+C:\Users\fumiz\source\repos\DSPModDev\advancedIngotRecipe\obj\Debug\advancedIngotRecipe.pdb
+C:\Users\fumiz\source\repos\DSPModDev\advancedIngotRecipe\obj\Debug\advancedIngotRecipe.csprojAssemblyReference.cache
