@@ -47,10 +47,10 @@ namespace advancedIngotRecipe
 
             recipeSetup();
 
-            LDBTool.PreAddDataAction += this.AddAdvancedIron;
-            LDBTool.PreAddDataAction += this.AddAdvancedCopper;
-            LDBTool.PreAddDataAction += this.AddAdvancedSilicon;
-            LDBTool.PreAddDataAction += this.AddAdvancedTitanium;
+            LDBTool.PostAddDataAction += this.AddAdvancedIron;
+            LDBTool.PostAddDataAction += this.AddAdvancedCopper;
+            LDBTool.PostAddDataAction += this.AddAdvancedSilicon;
+            LDBTool.PostAddDataAction += this.AddAdvancedTitanium;
             LDBTool.PreAddDataAction += this.AddLang;
         }
 
@@ -164,18 +164,18 @@ namespace advancedIngotRecipe
             Logger.LogInfo("AddLang Start");
             int stringid = 53001;
             // iron item
-            setStringProto(new StringProto(), stringid, "铁锭（高效）", "Iron Ingot (efficient)");
+            SetStringProto(new StringProto(), stringid, "铁锭（高效）", "Iron Ingot (efficient)");
             // copper item
-            setStringProto(new StringProto(), stringid++, "铜锭（高效）", "Copper Ingoto (efficient)");
+            SetStringProto(new StringProto(), stringid++, "铜锭（高效）", "Copper Ingoto (efficient)");
             // silicon item
-            setStringProto(new StringProto(), stringid++, "高纯度硅（高效）", "High-purity silicon (efficient)");
+            SetStringProto(new StringProto(), stringid++, "高纯度硅（高效）", "High-purity silicon (efficient)");
             // titan item
-            setStringProto(new StringProto(), stringid++, "钛锭（高效）", "Titanium ingot (efficient)");
+            SetStringProto(new StringProto(), stringid++, "钛锭（高效）", "Titanium ingot (efficient)");
 
             string descCN = "您可以通过加水生成更多的铸锭。";
             string descEN = "You can generate more ingots by adding water.";
             // iron desc
-            setStringProto(new StringProto(), stringid++, descCN, descEN);
+            SetStringProto(new StringProto(), stringid++, descCN, descEN);
             // copper desc
             //setStringProto(new StringProto(), stringid++, descCN, descEN);
             // silicon desc
@@ -185,7 +185,7 @@ namespace advancedIngotRecipe
             Logger.LogInfo("AddLang End");
         }
 
-        private void setStringProto(StringProto proto, int id, String strCN, String strEN)
+        private void SetStringProto(StringProto proto, int id, String strCN, String strEN)
         {
             proto.ID = id;
             proto.Name = strCN;
